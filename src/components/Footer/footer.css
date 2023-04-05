@@ -1,0 +1,146 @@
+.footer {
+  background-color: #5222d0;
+  color: white;
+  padding: 17px 32px;
+  z-index: 9998;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__img-wrapper {
+  margin-right: 58px;
+}
+
+.footer__img {
+}
+
+.footer__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  width: 307px;
+}
+
+.footer__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 43.47px;
+}
+
+.footer__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.footer__map {
+}
+
+.footer__tel {
+}
+
+.footer__mail {
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 95px;
+}
+
+.footer__item-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.footer__item-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer__item-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__item-link {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.footer__input-wrapper {
+  position: relative;
+}
+
+.footer__inp-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer__input {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222222;
+  background-color: #ffffff;
+  padding: 15px 0 15px 26px;
+  box-shadow: 0px 7px 10px rgba(40, 30, 70, 0.1);
+  border-radius: 7px;
+  width: 435px;
+
+}
+
+.footer__btn {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222222;
+  background: #ffffff;
+  box-shadow: 0px 7px 10px rgba(40, 30, 70, 0.1);
+  border-radius: 7px;
+  padding: 9px 25px;
+  border: 1px solid rgba(34, 34, 34, 0.7);
+  border-radius: 7px;
+  top: 54.8px;
+  right: 10px;
+}

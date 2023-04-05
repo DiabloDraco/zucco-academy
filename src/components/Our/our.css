@@ -1,0 +1,28 @@
+.our {
+}
+.our__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our__header {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 128.02%;
+  color: #000000;
+  margin-top: 61px;
+  margin-bottom: 31px;
+}
+.out__text {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 38px;
+  text-align: justify;
+  color: #222222;
+}
+.our__img {
+}
+.our__text {
+}
