@@ -1,6 +1,6 @@
 ---
-import Footer from '../components/Footer/footer.svelte';
-import Header from '../components/Header/header.svelte';
+import Footer from "../components/Footer/footer.svelte";
+import Header from "../components/Header/header.svelte";
 
 export interface Props {
   title: string;
@@ -15,9 +15,12 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/ico" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Roboto&family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>{title}</title>
   </head>
   <body>
@@ -49,6 +52,11 @@ const { title } = Astro.props;
     height: 100vh;
   }
   html {
-  
+  }
+
+  a {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(148, 143, 143, 0.411);
+    border-radius: 5px;
   }
 </style>

@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-right: 43.47px;
+  margin-right: 40px;
 }
 
 .footer__link {
@@ -64,7 +64,7 @@
 .footer__item {
   display: flex;
   flex-direction: column;
-  margin-right: 95px;
+  margin-right: 80px;
 }
 
 .footer__item-header {
@@ -78,13 +78,7 @@
 }
 
 .footer__item-list {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  opacity: 0.7;
+
 }
 
 .footer__item-item {
@@ -93,6 +87,13 @@
 }
 
 .footer__item-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.7;
   margin-bottom: 10px;
   width: 100px;
 }

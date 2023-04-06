@@ -19,7 +19,7 @@
                 If you go into detail about your production values or ethically sourced materials, you may be able to justify a higher price point for your products and services. For instance, Starbucks’ coffee may not necessarily be better than Dunkin’ Donuts’ coffee — but because Starbucks goes into detail about its high-quality ingredients, it immediately creates the sense that you’ll be paying a premium for its goods.
             </p> 
             <a class="about__link" href="https://t.me/zuccoacademy/239" target="_blank">
-                <img class="about__img" src="hi.svg" alt="offline course">       
+                <img class="about__img" src="/img/hi.svg" alt="offline course">       
                 <a class="about__text about__link" href="https://t.me/zuccoacademy/323" style="margin-top: 20px;" target="_blank">Front-End & Back-End Info</a>
             </a>
         </div>
