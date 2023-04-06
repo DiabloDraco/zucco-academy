@@ -7,7 +7,7 @@
 }
 
 .student__top {
-    display: flex;
+  display: flex;
 }
 
 .student__left {
@@ -20,12 +20,12 @@
 }
 
 .student__right {
-    width: 710px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-    margin-top: 27px;
+  width: 710px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 27px;
 }
 
 .student__header {
@@ -48,9 +48,14 @@
 
 .student__link {
   font-family: "Roboto Condensed";
-      font-weight: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 128.02%;
   color: #000000;
   margin-bottom: 27px;
+}
+
+.student__iframe {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

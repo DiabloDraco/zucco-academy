@@ -1,6 +1,6 @@
 .header {
     background-color: #5222d0;
-    padding: 17px 32px;
+    padding: 10px 0;
     position: sticky;
     z-index: 9998;
     top: 0;
@@ -33,5 +33,5 @@
 }
 
 .header__item-link:hover {
-  color: #00000071;
+  color: #EC615B;
 }

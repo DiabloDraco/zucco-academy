@@ -1,30 +1,40 @@
-.our {
+.about {
+}
+
+.container {
 
 }
-.our__wrapper {
+
+.about__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.our__header {
+
+.about__header {
   font-family: "Roboto Condensed";
-  font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 128.02%;
   color: #000000;
-  margin-top: 61px;
-  margin-bottom: 31px;
+  margin: 61px 0 31px;
+
 }
-.our__text {
+
+.about__text {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 38px;
   text-align: justify;
   color: #222222;
   opacity: 0.8;
 }
-.our__img {
-}
-.our__text {
+
+.about__img {
+  margin-top: 60px;
+  padding: 64px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 22px;
 }

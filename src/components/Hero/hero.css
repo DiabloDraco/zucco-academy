@@ -1,10 +1,10 @@
 .hero {
   background-color: #5222d0;
-  padding-bottom: 84.5px;
+  padding-bottom: 130.437495px;
 }
 
 .hero__wrapper {
-  /* background-image: url("/src/assets/img/hero__bgi.svg"); */
+  /* background-image: url("img/hero__bgi.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right calc(10px) ;

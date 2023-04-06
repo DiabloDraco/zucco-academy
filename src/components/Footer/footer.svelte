@@ -9,7 +9,7 @@
 
                 <a href="/">
                 
-                    <img class="footer__img mb-5" src="/src/assets/img/footer__logo.svg" width="273" title="Zucco Academy Logo v2" alt="Zucco Academy Logo White Version">
+                    <img class="footer__img mb-5" src="img/footer__logo.svg" width="273" title="Zucco Academy Logo v2" alt="Zucco Academy Logo White Version">
 
                 </a>
                 
@@ -19,7 +19,7 @@
 
             <div class="footer__link-wrapper" style="max-width: 320px;">
             
-                <a class="footer__link footer__map" href="https://goo.gl/maps/QcyhCLwcGuhkyATr7" target="_blank">Address:Toshkent shahar shayxontohur tumani alisher navoiy ko'chasi 32-uy</a>
+                <a class="footer__link footer__map" href="https://goo.gl/maps/QcyhCLwcGuhkyATr7" target="_blank">Address:Toshkent shahar Shayxontohur tumani alisher navoiy ko'chasi 32-uy</a>
             
                 <a class="footer__link footer__tel" href="Tel: +998712001001" target="_blank">Tel :+998712001001</a>
             

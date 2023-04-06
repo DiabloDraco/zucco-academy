@@ -23,7 +23,7 @@
                     Kurslar Ko'rish
                 </button>
             </div>
-            <img src="/src/assets/img/hero__bgi.svg" alt="hero__img" width="500">
+            <img src="/img/hero__bgi.svg" alt="hero__img" width="500">
         </div>
     </div>
 </section>

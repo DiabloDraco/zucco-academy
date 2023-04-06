@@ -4,7 +4,6 @@ export interface Props {
   body: string;
   img: string;
 }
-
 const { title, body, img } = Astro.props;
 ---
 
@@ -26,40 +25,55 @@ const { title, body, img } = Astro.props;
   </p>
 </li>
 
-<style>
+<style lang="scss">
+  
   .program__item {
-    width: 540px;
+    width: 360px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-  }
-  .program__item-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(15.71429px + 3.34821vw);
-    mix-blend-mode: darken;
-  }
-  .program__item-title {
-    max-width: 304px;
-    font-size: calc(7px + 0.78125vw);
-    line-height: calc(4.28571px + 1.33929vw);
-    font-weight: 700;
-    color: #303030;
-    text-align: center;
-    margin-top: calc(2.14286px + 2.23214vw);
-    margin-bottom: calc(10.71429px + 0.22321vw);
-  }
-  .program__item-body {
-    font-size: calc(4.14286px + 0.66964vw);
-    line-height: calc(0.28571px + 1.33929vw);
-    font-family: Inter;
-    font-weight: 400;
-    color: #646464;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: calc(-11.42857px + 1.11607vw);
-    margin-bottom: calc(10.71429px + 0.22321vw);
-    text-align: center;
+    border: 1px solid #30303071;
+    border-radius: 20px;
+    padding: 20px 0;
+    transition: all 0.4s ease-in;
+
+    &:hover {
+      box-shadow: 7px 9px 3px #878787;
+      transform: scale(1.02);
+    }
+    &:active {
+      transition: all 0.2s ease-in;
+    }
+    .program__item-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(15.71429px + 3.34821vw);
+      filter: drop-shadow(7px 6px 0px rgba(0, 0, 0, 0.415));
+      transition: all 0.4s ease;
+      &:hover {
+        webkit-filter:  drop-shadow(7px 6px 0px rgba(0, 0, 0, 0.615));
+        filter: drop-shadow(7px 6px 0px rgba(0, 0, 0, 0.615));
+      }
+    }
+    .program__item-title {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      max-width: 304px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 22px;
+      color: #303030;
+      text-align: center;
+    }
+    .program__item-body {
+      width: 300px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+    }
+    
   }
 </style>
