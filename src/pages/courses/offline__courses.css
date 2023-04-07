@@ -1,0 +1,72 @@
+.offline {
+}
+
+.offline__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offline__header {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 128.02%;
+  color: #000000;
+  margin-bottom: 37px;
+  margin-top: 27px;
+}
+
+.offline__img {
+    margin-right: 44px;
+}
+
+
+.offline__course-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.offline__text-wrapper {
+}
+
+.offline__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: justify;
+  color: #222222;
+  opacity: 0.8;
+  margin-bottom: 11px;
+}
+
+.offline__text-list {
+    max-width: 470px;
+}
+
+.offline__text-item {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.offline__text-item-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128.02%;
+  color: #000000;
+}
+
+.offline__text-item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 128.02%;
+  color: #000000;
+}
