@@ -70,7 +70,7 @@
  
                             <a class="footer__item-link" href="#">Vacancies</a>
  
-                            <a class="footer__item-link" href="#">Our location</a>
+                            <a class="footer__item-link" href="https://goo.gl/maps/QcyhCLwcGuhkyATr7" target="_blank">Our location</a>
  
                         </li>
  
