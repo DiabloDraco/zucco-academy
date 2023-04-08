@@ -23,7 +23,7 @@
       </p>
       <a
         class="about__link"
-        href="/courses/offline__courses"
+        href="/courses/offline__course"
       >
         <img class="about__img" src="/img/hi.svg" alt="offline course" />
         <a
