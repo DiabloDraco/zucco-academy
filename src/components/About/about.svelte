@@ -23,8 +23,7 @@
       </p>
       <a
         class="about__link"
-        href="https://t.me/zuccoacademy/239"
-        target="_blank"
+        href="/courses/offline__courses"
       >
         <img class="about__img" src="/img/hi.svg" alt="offline course" />
         <a

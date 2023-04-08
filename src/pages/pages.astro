@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Zucco Academy Pages Link">
+  <section class="link">
+    <div class="container">
+        <div class="link__wrapper">
+            <a class="link__link" href="/" target="_blank">HOME PAGE</a>
+    <a class="link__link" href="/about" target="_blank">ABOUT</a>
+    <a class="link__link" href="/courses" target="_blank">KURSLAR</a>
+    <a class="link__link" href="/courses/offline__course" target="_blank">OFFLINE KURSLAR</a>
+        </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+    .link {
+}
+.container {
+}
+.link__wrapper {
+    display: flex;
+    gap: 20px;
+}
+.link__link {
+    padding: 5px;
+    color: #5222d0;
+}
+</style>

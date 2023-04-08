@@ -1,10 +1,11 @@
 .offline {
+  padding-bottom: 96px;
 }
 
 .offline__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .offline__header {
@@ -19,13 +20,12 @@
 }
 
 .offline__img {
-    margin-right: 44px;
+  margin-right: 44px;
 }
 
-
 .offline__course-wrapper {
-    display: flex;
-    margin-bottom: 60px;
+  display: flex;
+  margin-bottom: 60px;
 }
 
 .offline__text-wrapper {
@@ -44,13 +44,13 @@
 }
 
 .offline__text-list {
-    max-width: 470px;
+  max-width: 470px;
 }
 
 .offline__text-item {
-    justify-content: space-between;
-    display: flex;
-    margin-bottom: 11px;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 11px;
 }
 
 .offline__text-item-header {
@@ -69,4 +69,30 @@
   font-size: 24px;
   line-height: 128.02%;
   color: #000000;
+}
+
+.offline__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.offline__item {
+  width: 694px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 4px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  display: flex;
+  padding: 13px 21px 0 13px;
+  align-items: center;
+}
+.offline__item-body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #222222;
+  opacity: 0.8;
+  margin-left: 20px;
 }
