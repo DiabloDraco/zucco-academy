@@ -1,5 +1,7 @@
-<script>
+<script >
   import "./about.css";
+
+
 </script>
 
 <div class="about">
@@ -21,17 +23,16 @@
         viloyatlarda zamonaviy IT Akademiyalar ochishni va yoshlarni sifatli
         ta'lim bilan ta'minlashni o'z oldiga ustuvor vazifa qilib qo'ygan.
       </p>
-      <a
-        class="about__link"
-        href="/courses/offline__course"
-      >
-        <img class="about__img" src="/img/hi.svg" alt="offline course" />
+      <a class="about__link" href="/courses/offline__course">
+        <img class="about__img" src="/img/hi.svg" alt="offline course" width="718" height="607" />
         <a
           class="about__text about__link"
           href="https://t.me/zuccoacademy/323"
           style="margin-top: 20px;"
-          target="_blank">Front-End & Back-End Info</a
+          target="_blank"
         >
+          Front-End & Back-End Info
+        </a>
       </a>
     </div>
   </div>

@@ -9,7 +9,7 @@
 
                 <a href="/">
                 
-                    <img class="footer__img mb-5" src="/img/footer__logo.svg" width="273" title="Zucco Academy Logo v2" alt="Zucco Academy Logo White Version">
+                    <img class="footer__img mb-5" src="/img/footer__logo.svg" width="273" height="97" title="Zucco Academy Logo v2" alt="Zucco Academy Logo White Version">
 
                 </a>
                 

@@ -1,7 +1,3 @@
-<script>
-    import './hero.css'
-</script>
-
 <section class="hero">
     <div class="container">
         <div class="hero__wrapper">
@@ -23,7 +19,7 @@
                     Kurslar Ko'rish
                 </button>
             </div>
-            <img src="/img/hero__bgi.svg" alt="hero__img" width="500">
+            <img src="/img/hero__bgi.svg" alt="hero__img" width="500" height="442">
         </div>
     </div>
 </section>

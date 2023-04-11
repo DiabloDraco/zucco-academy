@@ -6,7 +6,7 @@
       <div class="container">
         <div class="header__wrapper">
           <a href="/">
-          <img src="/img/footer__logo.svg" alt="ZuccoAcademy Logo" width="150" height="31">
+          <img src="/img/footer__logo.svg" alt="ZuccoAcademy Logo" width="150" height="53.28">
 
           </a>
           <ul class="header__list">

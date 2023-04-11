@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Program from "../components/Program/program.astro";
 import Hero from "../components/Hero/hero.svelte";
 import Student from "../components/Student/student.svelte";
+import '../components/Hero/hero.css'
+import On from "../components/On/on.astro";
 ---
 
 <Layout title="Zucco Academy">
@@ -10,7 +12,8 @@ import Student from "../components/Student/student.svelte";
     <main>
 		<Hero />
 		<Program />
-    <Student />
+    <!-- <Student /> -->
+    <On />
     </main>
   </body>
 </Layout>

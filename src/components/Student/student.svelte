@@ -21,7 +21,7 @@
                     <h2 class="student__header">STUDENTS LIFE</h2>
                     <p class="student__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived</p>
                     <a class="student__link" href="https://zuccoacademy.t.me/" target="_blank">learn more</a>
-                    <img class="student__img" src="img/student__img-2.png" alt="student__photos*">
+                    <img class="student__img" src="img/student__img-2.png" alt="student__photos">
                     <h2 class="student__header" style="padding-top:27px">Talabalar hayoti</h2>
                     <p class="student__text">Ofis kompyuterlari mobil ilovalarini ishlab chiqish web-ishlab chiqish Java AutoCad PHP</p>
                     <a class="student__link" href="https://zuccoacademy.t.me/" target="_blank">batafsil ma'lumot</a>

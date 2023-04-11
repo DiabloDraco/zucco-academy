@@ -3,16 +3,19 @@ export interface Props {
   title: string;
   body: string;
   img: string;
+  width: string;
+  height: string;
+
 }
-const { title, body, img } = Astro.props;
+const { title, body, img, width, height } = Astro.props;
 ---
 
 <li class="program__item">
   <img
     class="program__item-img"
     src={img}
-    width="auto"
-    height="auto"
+    width={width}
+    height={height}
     alt="Программа курса"
     loading="lazy"
     title="icons"
